@@ -34,3 +34,36 @@ print(type(x))
 x="welcome"
 y='welcome' #we can use single or double quotes for str and char in python, but in python single character is also str and not char
 print(type(x))
+
+#Operators in Python
+"""
+An operator is a symbol which performs an operation between 2 or more variables
+Arithmetic operators: + - *  ** / // %
+Logical operators: and or not (keyword based no symbol, will return a boolean value)
+relational operators: < <= > >= == !=   (will always return a boolean value true or false)
+"""
+#example
+a=10
+b=5
+
+print (a+b) #addition
+print (a-b) #subtraction
+print (a*b) #multiplication
+print(a**b) #square or exponent
+print (a/b) #division
+print(a//b) #quotient
+print(a%b) #remainder
+
+print(a<b) #false
+print(a<=b)#false
+print(a>b)# true
+print(a>=b)# true
+print(a!=b)# true
+print(a==b)# false
+
+#example
+c=True
+d=False
+print(c and d)
+print (c or d)
+print (not c)
