@@ -63,9 +63,61 @@ print("freedom"!="free")
 print("abc"<" ")
 
 #testing string functions return bool value
-s="welcometopython"
+s="welcome to python"
 print(s.isalnum())
 print("2323".isnumeric())
 print(s.isdigit())
 print(s.islower())
 print(s.isalpha())
+print(s.isspace())
+
+#Searching for substrings
+s1="welcome to learning"
+print(s1.startswith("wel"))
+print(s1.endswith("come"))
+print(s1.find("to"))
+print(s1.find("learn"))
+print(s1.find("my"))  #will return negative 1 (-1) as this is not present in the string
+print(s.count("n"))  #returns the no of times the substring is present in the string
+
+#converting strings
+#capitalize(): will capitalize the first letter
+m="string in Python"
+m1=m.capitalize()
+print(m1)
+
+#title(): will capitalize each first letter in the string
+m2=m.title()
+print(m2)
+#output:String In Python
+
+#lower()
+m3=m.lower()
+print(m3)
+
+#upper
+m4=m.upper()
+print(m4)
+
+#swapcase
+m5=m.swapcase()
+print(m5)
+
+#replace
+m6=m.replace("in","to")
+print(m6)
+
+#####REVERSE A STRING########
+#there is no direct logic to reverse
+#2 methods: using for loop , using slicing operator eg: print(n[::-1])
+
+# 1st method:
+n="shayesta"
+rev_str=""
+for i in n:
+    rev_str=i+rev_str
+print("the reversed string is: "+rev_str)
+
+#2nd method
+n1="salam"
+print(n1[::-1])
