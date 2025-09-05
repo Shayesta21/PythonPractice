@@ -22,5 +22,5 @@ print("even") if num%2==0 else print("odd")
 
 #example 4 if else with multiple print in single line
 num=10
- #{print("hello").(world)} if num<10 else {print("hi"), ("world")}
+var={print("hello"),("world")} if num<10 else {print("hi"),("world")}
 
