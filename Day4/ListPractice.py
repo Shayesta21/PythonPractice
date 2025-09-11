@@ -1,6 +1,8 @@
 #collections in python 1)list 2)tuple 3)set 4)dictionary
 
 #list: it is changeable and ordered, it is written with a [], it is mutable
+#Tuple: it is ordered and unchangeable collection
+#Set: it is unordered and unindexed
 
 # how to create a list
 list0=[12, 20, 30 ,40, 50]
@@ -93,3 +95,11 @@ list13=[4,5,3,2,1]
 list14=["a",'b','c']
 list13.extend(list14)
 print(list13)
+
+#comparing 2 lists
+list13=[4,5,3,2,1]
+list14=["a",'b','c']
+if list13==list14:
+    print("they are equal")
+else:
+    print("they are not equal")
