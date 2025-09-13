@@ -1,8 +1,9 @@
 #collections in python 1)list 2)tuple 3)set 4)dictionary
 
 #list: it is changeable and ordered, it is written with a [], it is mutable
-#Tuple: it is ordered and unchangeable collection
-#Set: it is unordered and unindexed
+#Tuple: it is ordered and unchangeable collection, uses()
+#Set: it is unordered and unindexed, uses{}
+## Dictionary: it is used for key and value pairs, it is mutable and uses {} brackets
 
 # how to create a list
 list0=[12, 20, 30 ,40, 50]
