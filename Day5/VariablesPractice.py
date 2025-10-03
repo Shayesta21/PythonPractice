@@ -23,7 +23,7 @@ num()
 print(xy)
 
 # when you do not declare a global variable and use global keyword directly in the function
-#you can y=use the global variable inside the function, but you must declare the global keyword
+#you can you can use the global variable inside the function, but you must declare the global keyword
 def num():
     global a
     a=100

@@ -5,6 +5,7 @@
 # user defined functions: the user will create this function
 
 #def is a keyword used to define a function
+#you need to call the function with the function name
 
 # defining a function
 #eg:def myfun(): use def to define a function use a function name with() brackets and end with a ':'
@@ -40,5 +41,5 @@ def fun():
 print(fun())
 
 def fun1():
-    i=10; # when you declare a value but not return it will still return none
+    i=10 # when you declare a value but not return it  will still return none
 print(fun1())
